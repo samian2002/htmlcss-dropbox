@@ -4,4 +4,85 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-/*hrader*/
+/*---------hrade--------r*/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+/*left*/
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.options{
+    display: flex;
+    gap: 2rem;
+}
+.options > a{
+    text-decoration: none;
+    color: black;
+}
+/*right*/
+.nav-right > a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right > button{
+    padding: 9px 16px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+/*---jambo---*/
+.jambo{
+    height: 70vh;
+    background-color: #b4d0e7;
+}
+.jambo-content{
+    margin-left: 20.5rem;
+    width: 122vh;
+}
+.jambo-justify{
+    display: flex;
+}
+h1{
+    font-size: 5.5rem;
+    padding-top: 3rem ;
+}
+/*jambo text*/
+.jambo-text{
+    width: 30%;
+    margin-top: 3rem;
+}
+.jambo-text > button{
+    padding: 9px 16px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.jambo-text > i{
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+/*jambo img*/
+.jambo-img{
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.jambo-img > img{
+    width: 100%;
+    height: 100%;
+}
+
