@@ -80,9 +80,92 @@ h1{
     width: 70%;
     margin-top: 2rem;
 }
-
 .jambo-img > img{
     width: 100%;
     height: 100%;
 }
+/*---------main-------*/
+main{
+    width: 100%;
+    margin-top: 10rem;
+}
+/*plan*/
+.plan{
+    width: 55vw;
+    margin-left: 20%;
+    margin-bottom: 3rem;
+}
+.plan > h2{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.inputs{
+    display: flex;
+    gap: 3.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 18px;
+}
+.column{
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+}
+.professional{
+    width: calc(55vw / 3 - 2rem);
+    border: solid 1px gray
+}
+.general-info{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+.general-info > h3{
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+}
+.general-info > p{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.general-info > span{
+    color: gray;
+}
 
+.info{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.info > button{
+    padding: 10px 45px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin: 0 0 2.5rem 0;
+}
+.info > hr{
+    width: 25%;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+.info > h4{
+    margin-bottom: 1rem;
+}
+
+.plan-type{
+text-align: center;
+padding: 10px;
+border-bottom: solid 1px gray;
+}
+li{
+    list-style: none;
+    padding-top: 1rem;
+}
+ul{
+    padding-bottom: 3rem;
+}
+.fa-check{
+    color: #0061ff;
+    font-size: 18px;
+}
