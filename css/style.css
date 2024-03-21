@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+header{
+    width: 94vw;
+}
 /*---------hrade--------r*/
 .nav-bar{
     display: flex;
@@ -384,4 +387,35 @@ ul{
 }
 .clear{
     background-color: #ffd830;
+}
+/*try-business*/
+.try-business{
+    width: 94vw;
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    
+}
+.business-text{
+    width: 35%;
+    margin-left: 20%;
+
+}
+.business-text > h2{
+    font-size: 3rem;
+}
+.business-button{
+    width: 30%;
+}
+.business-button > button{
+    padding: 9px 16px;
+    color: gray;
+    background-color: white;
+    border: solid 1px gray;
+}
+/*questions*/
+.questions{
+    width: 55vw;
+    margin-left: 20%;
 }
