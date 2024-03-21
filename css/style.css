@@ -225,10 +225,42 @@ ul{
 .partner-img > img{
     width: 100%;
 }
-
 .partner-text > button{
     padding: 9px 16px;
     color: gray;
     background-color: white;
     border: solid 1px gray;
+}
+/*business*/
+.business{
+    width: 55vw;
+    margin-left: 20%;
+    margin-top: 8rem;
+}
+.business > h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.business-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+}
+.group{
+    width: calc(55vw / 3 - 1.5rem);
+}
+.group > p{
+    margin-top: 1rem;
+}
+.group > img{
+    width: 100%;
+}
+.end-title{
+    width: 60%;
+}
+.end-title > h2{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
 }
