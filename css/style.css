@@ -258,9 +258,130 @@ ul{
 }
 .end-title{
     width: 60%;
+    margin-bottom: 6rem;
 }
 .end-title > h2{
     margin-top: 6rem;
     margin-bottom: 3rem;
     font-size: 2.5rem;
+}
+/*box logo*/
+.box-logos{
+    display: flex; 
+    width: 94vw;
+}
+.box-left{
+    width: calc(100% / 3);
+    height: 634.984px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-left > div{
+    width: 50%;
+    height: 50%;
+}
+
+.designit > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.arizona > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.florida > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.topps > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.designit{
+    background-color: #a2d39b;
+    border: 1rem solid #d1e9cd;
+}
+.arizona{
+    background-color: #61082b;
+}
+.florida{
+    background-color: #0093ce;
+}
+.topps{
+    background-color: #ff1c1c;
+}
+.box-center{
+    width: calc(100% / 3);
+    height: 634.984px;
+    background-color: #f5f5f5;
+    padding: 2.5rem;
+}
+.box-content > img{
+    padding-bottom: 2rem;
+}
+.box-content > hr{
+    width: 25%;
+    margin-bottom: 2rem;
+} 
+.box-content > p{
+    margin-bottom: 2rem;
+}
+.box-right{
+    width: calc(100% / 3);
+    height: 634.984px;
+}
+
+.box-right{
+    width: calc(100% / 3);
+    height: 634.984px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-right > div{
+    width: 50%;
+    height: 50%;
+}
+.bicycle > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.hearst > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.planet > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.clear > img{
+    width: 100%;
+    height: 100%;
+    transform: scale(50%);
+    filter: invert(1);
+}
+.bicycle{
+    background-color: #d5001f;
+}
+.hearst{
+    background-color: #b4d0e7;
+}
+.planet{
+    background-color: #0d2481;
+}
+.clear{
+    background-color: #ffd830;
 }
