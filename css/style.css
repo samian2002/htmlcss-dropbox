@@ -199,3 +199,36 @@ ul{
     right: 1.8rem;
     top: 1.5rem;
 }
+/*partners*/
+.contact-partner{
+    width: 55vw;
+    margin-left: 20%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 8rem;
+}
+.partner-img{
+    width: 60%;
+}
+.partner-text{
+    width: 30%;
+}
+.partner-text > h4{
+    font-size: 22px;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.partner-text > p{
+    margin-bottom: 2.5rem;
+}
+.partner-img > img{
+    width: 100%;
+}
+
+.partner-text > button{
+    padding: 9px 16px;
+    color: gray;
+    background-color: white;
+    border: solid 1px gray;
+}
