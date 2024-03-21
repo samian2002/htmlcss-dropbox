@@ -131,7 +131,6 @@ main{
 .general-info > span{
     color: gray;
 }
-
 .info{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -168,4 +167,15 @@ ul{
 .fa-check{
     color: #0061ff;
     font-size: 18px;
+}
+/*enterprice*/
+.enterprice{
+    width: 55vw;
+    margin-left: 20%;
+    border: solid 1px gray;
+}
+.team{
+    text-align: center;
+    border-bottom: solid 1px gray;
+    padding: 10px;
 }
